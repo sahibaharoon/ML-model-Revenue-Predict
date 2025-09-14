@@ -1,4 +1,4 @@
-Marketing Mix Modeling (MMM) – Methodology & Insights
+# # Marketing Mix Modeling (MMM) – Methodology & Insights
 
 This project applies time-series modeling with XGBoost to understand the impact of different marketing channels on revenue.
 
@@ -42,5 +42,13 @@ The model explicitly considers Google Spend as a mediator influenced by other ch
 	•	RMSE & MAE show low prediction error in dollar terms.
 	•	TimeSeriesSplit confirmed consistent relationships across periods.
 
+# Project Structure
+1.MMM_Assessment.ipynb: The main Jupyter Notebook containing all the code.
+2.dataset.csv: The raw weekly data used for the model.
+3.requirements.txt
+4.README.md: This file! Your guide to the project.
 
-increases.
+# SETUP INSTRUCTIONS
+python -m venv venv
+source venv/bin/activate 
+pip install -r requirements.txt

@@ -1,4 +1,4 @@
-# # Marketing Mix Modeling (MMM) – Methodology & Insights
+#  Marketing Mix Modeling (MMM) – Methodology & Insights
 
 This project applies time-series modeling with XGBoost to understand the impact of different marketing channels on revenue.
 

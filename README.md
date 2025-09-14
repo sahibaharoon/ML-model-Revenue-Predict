@@ -25,13 +25,13 @@ This project applies time-series modeling with XGBoost to understand the impact 
 
 3. Causal Framing with a Mediator Model
 
-The model explicitly considers Google Spend as a mediator influenced by other channels.
+	-   The model explicitly considers Google Spend as a mediator influenced by other channels.
 	-	Mediator Hypothesis
 	-	Channels like TikTok & Facebook drive brand awareness, which increases Google search activity → boosting Google spend.
 	-	Google Spend, in turn, has a direct impact on revenue.
 	-	Two-Stage Setup
-	-	Stage 1: Predict Google Spend (scaled_log1p_Google_Spend) from other channels.
-	-	Stage 2: Predict Revenue using
+		-	Stage 1: Predict Google Spend (scaled_log1p_Google_Spend) from other channels.
+		-	Stage 2: Predict Revenue using
 	-	Predicted Google Spend (pred_google_spend_cv)
 
 4. Diagnostics & Model Performance
@@ -46,6 +46,6 @@ The model explicitly considers Google Spend as a mediator influenced by other ch
 4. README.md: This file! Your guide to the project.
 
 # SETUP INSTRUCTIONS
-python -m venv venv
-source venv/bin/activate 
-pip install -r requirements.txt
++ python -m venv venv
++ source venv/bin/activate 
++ pip install -r requirements.txt

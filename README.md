@@ -4,15 +4,13 @@ This project applies time-series modeling with XGBoost to understand the impact 
 
 1. Data Preparation
 
-Before modeling, the raw data was carefully transformed into meaningful features.
-	•	seasonality handling
-	•	sine/cosine transformations were used to capture weekly & monthly cycles.
-	•	tree-based model like XGBoost
-	•	added lag features
-	•	used 4-week moving averages
-	•	applied log1p transformation (log(1+x)) to spend & revenue data.
-	•	handles zeros safely and reduces the impact of extreme spikes in marketing spend
-	•	used RobustScaler instead of StandardScaler
+	-	sine/cosine transformations were used to capture weekly & monthly cycles.
+	-	tree-based model like XGBoost
+	-	added lag features
+	-	used 4-week moving averages
+	-	applied log1p transformation (log(1+x)) to spend & revenue data.
+	-	handles zeros safely and reduces the impact of extreme spikes in marketing spend
+	-	used RobustScaler instead of StandardScaler
 
 2. Modeling Approach
 
